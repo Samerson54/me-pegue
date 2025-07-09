@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Catch me</title>
+</head>
+<body onclick="mudarCor()">
+
+    <div class="logo">
+    <h1>Catch me if you can!</h1>
+
+    <p>Você clicou:<span id="contador"> 0</span> vezes!</p>
+    </div>
+    <button
+
+    id="botao"
+    onmousemove ="this.style.top = Math.random() * (window.innerHeight - 50) + 'px'; this.style.left = Math.random() * (window.innerWidth - 50) + 'px';"
+    class="catch-me-btn">Clique aqui!</button>
+
+    <script src="Logo.js"></script>
+
+</body>
+</html>
